@@ -45,3 +45,6 @@ jobs:
       with:
         name: debug-apk
         path: app/build/outputs/apk/debug/*.apk
+
+        - name: Build Debug APK
+  run: ./gradlew assembleDebug --stacktrace --info --no-daemon
