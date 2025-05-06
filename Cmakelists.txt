@@ -1,0 +1,8 @@
+xenia-android/
+├── CMakeLists.txt
+├── app/
+│   └── Android.mk (optional)
+├── src/
+│   ├── main.cpp
+│   └── xenia/   <-- Xenia source (core, kernel, gpu, etc.)
+├── build/
